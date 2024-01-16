@@ -78,7 +78,7 @@ nav {
 
 /* banner styles added */
 .banner-container {
-  background-image: url('../images/group.png');
+  background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 60px;
@@ -184,7 +184,7 @@ nav {
   margin: 24px 0;
 }
 
-.popular-list{
+.popular-list {
   width: 525px;
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
@@ -198,7 +198,7 @@ nav {
   padding-left: 23px;
 }
 
-.popular-image{
+.popular-image {
   width: 100%;
   max-width: 540px;
   height: 550px;
@@ -208,74 +208,143 @@ nav {
 /* popular section styles end */
 
 /* destination section styles start */
-.destination{
+.destination {
   margin-top: 100px;
 }
 
-.destination-title{
+.destination-title {
   text-align: center;
 }
 
-.destination-para{
+.destination-para {
   text-align: center;
   margin: 15px auto;
 }
 
-.first-row-img{
+.first-row-img {
   display: grid;
   grid-template-columns: repeat(2, 573px);
   gap: 24px;
   padding: 10px;
 }
 
-.second-row-img{
+.second-row-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding: 10px;
 }
 
-.third-row-img{
+.third-row-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   padding: 10px;
 }
 
-.places-img{
+.places-img {
   width: auto;
 }
 
-.first-row-img .places-img{
+.first-row-img .places-img {
   height: 300px;
 }
 
-.second-row-img .places-img:nth-child(1){
-max-width: 374px;
-height: 286px;
+.second-row-img .places-img:nth-child(1) {
+  max-width: 374px;
+  height: 286px;
 }
 
-.second-row-img .places-img:nth-child(2){
-max-width: 474px;
-height: 286px;
+.second-row-img .places-img:nth-child(2) {
+  max-width: 474px;
+  height: 286px;
 }
 
-.second-row-img .places-img:nth-child(3){
-max-width: 274px;
-height: 286px;
+.second-row-img .places-img:nth-child(3) {
+  max-width: 274px;
+  height: 286px;
 }
 
-.third-row-img .places-img:nth-child(1){
+.third-row-img .places-img:nth-child(1) {
   max-width: 473px;
   height: 300px;
 }
 
-.third-row-img .places-img:nth-child(2){
+.third-row-img .places-img:nth-child(2) {
   max-width: 673px;
   height: 300px;
 }
 
+/* destination section styles end */
 
+/* choose section styles start */
+
+.choose-section {
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.choose-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.pick-hotels {
+  width: 100%;
+  max-width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 40px;
+  margin: 0 12px;
+}
+
+.services-explain {
+  width: 100%;
+  max-width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 40px;
+  margin: 0 12px;
+}
+
+.price-guarantee {
+  width: 100%;
+  max-width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 40px;
+  margin: 24px 301px;
+}
+
+.card-logo {
+  width: 100%;
+  max-width: 64px;
+  height: 64px;
+}
+
+.card-title {
+  color: #131318;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card-details {
+  max-width: 486px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 /* Responsive for small mobile device */
 @media screen and (max-width: 576px) {
   .container {
@@ -347,7 +416,7 @@ height: 286px;
     padding: 0 90px;
   }
 
-  .popular-container{
+  .popular-container {
     flex-direction: column;
   }
 
@@ -355,13 +424,13 @@ height: 286px;
     font-size: 20px;
   }
 
-  .popular-paragaraph{
+  .popular-paragaraph {
     width: 335px;
     font-size: 14px;
     margin: 16px 0;
   }
 
-  .popular-list{
+  .popular-list {
     width: 335px;
     font-size: 14px;
     line-height: 28px;
@@ -373,14 +442,13 @@ height: 286px;
     padding-left: 20px;
   }
 
-
-  .rectangle-image{
-     width: 335px;
+  .rectangle-image {
+    width: 335px;
     height: 342px;
   }
 
-  .read-more-btn{
-  max-width: 174px;
-  padding: 0;
+  .read-more-btn {
+    max-width: 174px;
+    padding: 0;
   }
 }

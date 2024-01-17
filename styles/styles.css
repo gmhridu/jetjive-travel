@@ -256,7 +256,6 @@ nav {
   color: #fff;
   font-size: 28px;
   font-weight: 800;
-  /* margin: -11px -90px; */
 }
 
 .places-img {
@@ -269,35 +268,6 @@ nav {
     rgba(19, 19, 24, 0.2) 100%
   );
 }
-
-/* .first-row-img .places-img {
-  height: 300px;
-}
-
-.second-row-img .places-img:nth-child(1) {
-  max-width: 374px;
-  height: 286px;
-}
-
-.second-row-img .places-img:nth-child(2) {
-  max-width: 474px;
-  height: 286px;
-}
-
-.second-row-img .places-img:nth-child(3) {
-  max-width: 274px;
-  height: 286px;
-} */
-
-/* .third-row-img .places-img:nth-child(1) {
-  max-width: 473px;
-  height: 300px;
-}
-
-.third-row-img .places-img:nth-child(2) {
-  max-width: 673px;
-  height: 300px;
-} */
 
 /* destination section styles end */
 
@@ -553,15 +523,15 @@ nav {
   margin-bottom: 11px;
 }
 
-.hr-first-side{
-    width: 80px;
-    height: 4px;
+.hr-first-side {
+  width: 80px;
+  height: 4px;
 }
 
-.hr-second-side{
+.hr-second-side {
   width: 500px;
-height: 4px;
-border-radius: 8px;
+  height: 4px;
+  border-radius: 8px;
 }
 
 .video-background {
@@ -579,7 +549,6 @@ border-radius: 8px;
   opacity: 0.7;
   z-index: 1;
 }
-
 
 .video-controls {
   position: relative;
@@ -622,8 +591,6 @@ border-radius: 8px;
   line-height: 36px;
   margin: 176px auto;
 }
-
-
 
 /*  Perfect place section styles end */
 
@@ -706,6 +673,10 @@ border-radius: 8px;
     font-size: 20px;
   }
 
+  .popular-image {
+    height: auto;
+  }
+
   .popular-paragaraph {
     width: 335px;
     font-size: 14px;
@@ -733,4 +704,135 @@ border-radius: 8px;
     max-width: 174px;
     padding: 0;
   }
+
+  .destination {
+    margin-top: -44px;
+  }
+
+  .first-row-img,
+  .second-row-img,
+  .third-row-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .choose-section {
+    margin-top: -46px;
+  }
+
+  .choose-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .price-guarantee {
+    margin: 24px 12px;
+  }
+
+  .pick-hotels,
+  .services-explain,
+  .price-guarantee {
+    width: 335px;
+    height: 289px;
+  }
+
+  .card-logo {
+    max-width: 48px;
+    height: 48px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-details {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .discount-offer,
+  .discount-offer2,
+  .discount-offer3 {
+    max-width: 335px;
+    height: 500px;
+    background-image: url('../images/discount_img.png');
+    object-fit: contain;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 24px 12px;
+  }
+
+  .discount-offer2 .flip-time {
+    transform: scaleX(-1)
+  }
+
+  .date,
+  .people,
+  .location {
+    display: inline-grid;
+    gap: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 10px;
+  }
+
+  .location-time {
+    width: 303px;
+    height: 297px;
+    margin-left: -4px;
+    margin-top: 164px;
+  }
+
+  .place-name {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .place-details{
+    max-width: 254px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .place-prices{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+ .place-btn{
+    max-width: 130px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .packages-btn {
+    display: none;
+  }
+
+  .perfect-place{
+    flex-direction: column;
+  }
+
+  .perfect-video {
+    width: 335px;
+    height: 200px;
+  }
+
+  .perfect-video-title{
+    margin: 44px auto;
+  }
+
+  .video-setting {
+    margin: -222px 13px;
+    gap: 5px;
+}
+
+.video-img {
+  margin: 361px 12px;
+}
 }

@@ -593,6 +593,98 @@ nav {
 }
 
 /*  Perfect place section styles end */
+/* newsletter section styles start */
+.divider {
+  width: 393px;
+  height: 1px;
+  margin: 24px 40px;
+  opacity: 0.3;
+  background: rgba(19, 19, 24, 0.1);
+}
+
+.newsletter {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.newsletter-container-left {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+}
+
+.newsletter-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.newsletter-paragraph {
+  width: 350px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 15px 40px 24px 40px;
+}
+
+.newsletter-input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  margin: 16px 40px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.input-btn {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  margin: 0 40px;
+  padding-left: 138px;
+  padding-right: 255px;
+}
+
+.newsletter-img {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.newletter-img-title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 32px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.newletter-img-text {
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  padding: 20px;
+  border-radius: 16px;
+  margin: 253px 343px;
+}
+
+.newsletter-container-right {
+  width: 672px;
+  height: 422px;
+  background-image: url('../images/newsletter.png');
+  border-radius: 16px;
+}
 
 /* Responsive for small mobile device */
 @media screen and (max-width: 576px) {
@@ -671,6 +763,8 @@ nav {
 
   .popular-title {
     font-size: 20px;
+    text-align: center;
+    padding-left: 12px;
   }
 
   .popular-image {
@@ -761,7 +855,7 @@ nav {
   }
 
   .discount-offer2 .flip-time {
-    transform: scaleX(-1)
+    transform: scaleX(-1);
   }
 
   .date,
@@ -789,7 +883,7 @@ nav {
     margin-left: 20px;
   }
 
-  .place-details{
+  .place-details {
     max-width: 254px;
     font-size: 14px;
     line-height: 24px;
@@ -797,13 +891,13 @@ nav {
     margin-left: 20px;
   }
 
-  .place-prices{
+  .place-prices {
     font-size: 16px;
     margin-bottom: 10px;
     margin-left: 20px;
   }
 
- .place-btn{
+  .place-btn {
     max-width: 130px;
     padding: 0;
     margin-bottom: 10px;
@@ -814,7 +908,7 @@ nav {
     display: none;
   }
 
-  .perfect-place{
+  .perfect-place {
     flex-direction: column;
   }
 
@@ -823,16 +917,97 @@ nav {
     height: 200px;
   }
 
-  .perfect-video-title{
+  .perfect-video-title {
     margin: 44px auto;
   }
 
   .video-setting {
     margin: -222px 13px;
     gap: 5px;
-}
+  }
 
-.video-img {
-  margin: 361px 12px;
-}
+  .video-img {
+    margin: 361px 12px;
+  }
+
+  .perfect-paragraph {
+    width: 335px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 12px;
+  }
+  .perfect-wrapper li {
+    width: 335px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .perfect-wrapper > ul {
+    padding-left: 87px;
+  }
+
+  .see-more-btn {
+    margin-left: 65px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    margin: 24px;
+  }
+  .newsletter-container-left {
+    width: 335px;
+    height: 353px;
+  }
+
+  .newsletter-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .newsletter-paragraph {
+    width: 270px;
+    margin: 10px 20px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .divider {
+    width: 288px;
+    margin: 10px 23px;
+  }
+
+  .newsletter-input {
+    width: 288px;
+    height: 52px;
+    margin: 10px 13px;
+  }
+
+  .input-btn {
+    width: 288px;
+    height: 52px;
+    padding-left: 88px;
+    padding-right: 200px;
+    margin: 0px 14px;
+  }
+
+  .newsletter-container-right {
+    width: 335px;
+    height: 300px;
+  }
+  .newletter-img-text {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 10.569px;
+    margin: 191px 118px;
+  }
+
+  .newsletter-img {
+    font-size: 15.854px;
+  }
+
+  .newletter-img-title {
+    font-size: 21.138px;
+    margin-left: 13px;
+  }
 }

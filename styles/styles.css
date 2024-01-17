@@ -10,6 +10,7 @@ body {
 .container {
   width: 100%;
   max-width: 1170px;
+  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -154,6 +155,45 @@ nav {
   font-weight: 700;
   padding: 14px 35px;
 }
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-inp {
+    padding-right: 30px;
+}
+
+.arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+}
+
+.banner-btn {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-primary {
+    padding-right: 30px;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+}
+
+
 
 /* banner style end */
 
@@ -768,9 +808,11 @@ nav {
 
 /* Responsive for small mobile device */
 @media screen and (max-width: 576px) {
+
   .container {
     width: 100%;
     max-width: 335px;
+    overflow: hidden;
     margin: 0 auto;
   }
 
@@ -830,6 +872,7 @@ nav {
   }
   .banner-inp {
     max-width: 255px;
+    width: 255px;
   }
 
   .btn-primary {
@@ -839,6 +882,7 @@ nav {
 
   .popular-container {
     flex-direction: column;
+    margin: 20px auto;
   }
 
   .popular-title {
@@ -848,7 +892,9 @@ nav {
   }
 
   .popular-image {
-    height: auto;
+    width: 335px;
+    height: 342px;
+    margin: 20px auto;
   }
 
   .popular-paragaraph {
@@ -884,13 +930,14 @@ nav {
   }
 
   .destination-title {
-    margin-top: 20px;
+    margin-top: 56px;
   }
 
   .first-row-img,
   .second-row-img,
   .third-row-img {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .choose-section {
@@ -899,10 +946,11 @@ nav {
 
   .choose-card-container {
     grid-template-columns: 1fr;
+    margin: 0 -10px;
   }
 
   .price-guarantee {
-    margin: 24px 12px;
+    margin: 24px auto;
   }
 
   .pick-hotels,
@@ -935,7 +983,7 @@ nav {
     object-fit: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 24px 12px;
+    margin: 24px auto;
   }
 
   .discount-offer2 .flip-time {
@@ -1024,6 +1072,7 @@ nav {
     width: 335px;
     font-size: 14px;
     line-height: 24px;
+    margin: 10px -9px;
   }
   .perfect-wrapper > ul {
     padding-left: 87px;
@@ -1096,9 +1145,10 @@ nav {
   }
 
   .footer-section {
-    width: 375px;
+    width: 380px;
     height: 309px;
-    margin: 0px 25px;
+    margin: 0px -2px;
+    overflow: hidden;
   }
 
   .footer-heading {
@@ -1142,3 +1192,96 @@ nav {
   }
 }
 
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .left-header {
+    display: none;
+  }
+
+  .menu-img {
+    display: inline-flex;
+  }
+
+  .right-header {
+    display: none;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  .title-logo {
+    display: none;
+  }
+
+  .menu {
+    text-align: left;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #131318;
+  }
+
+  .banner-title {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .banner-input {
+    margin: 24px 20px 20px 20px;
+  }
+
+  .popular-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popular-title {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .popular-paragaraph,
+  .popular-list {
+    width: auto;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .destination-title,
+  .choose-section,
+  .form-container,
+  .footer {
+    text-align: center;
+  }
+
+  .destination-title {
+    margin-top: 60px;
+  }
+
+  .first-row-img,
+  .second-row-img,
+  .third-row-img {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .choose-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .pick-hotels,
+  .services-explain,
+  .price-guarantee {
+    margin: 0 20px 20px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* responsive styles end */

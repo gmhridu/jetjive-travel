@@ -1,438 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Mulish fonts added from google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>JetJive Travel</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Mulish fonts added from google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
+  <title>JetJive Travel</title>
 
-  <body>
-    <div class="container">
-      <header>
-        <!-- header section started -->
-        <nav>
-          <div class="left-header">
-            <img src="./resources/logo.png" alt="" class="title-logo" />
-            <h1 class="header-title">
-              JetJive <span class="chng-color">Travel</span>
-            </h1>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <!-- header section started -->
+      <nav>
+        <div class="left-header">
+          <img src="./resources/logo.png" alt="" class="title-logo" />
+          <h1 class="header-title">
+            JetJive <span class="chng-color">Travel</span>
+          </h1>
+        </div>
+        <div class="right-header">
+          <a href="#" class="menu home-style">Home</a>
+          <a href="#" class="menu">Packages</a>
+          <a href="#" class="menu">Testimonial</a>
+          <a href="#" class="menu">Blog</a>
+          <a href="#" class="menu">Contact</a>
+        </div>
+        <img src="./resources/frame.svg" alt="" class="menu-img" />
+      </nav>
+      <!-- banner section start -->
+      <div class="banner-container">
+        <div class="banner">
+          <div class="banner-title">
+            <h1 class="banner-heading">Explore Your Travel</h1>
+
+            <p class="banner-para">
+              Embark on a journey with 'JetJive Travel .' Unleash wanderlust,
+              discover unique destinations, and create lasting memories. Your
+              next adventure awaits!
+            </p>
           </div>
-          <div class="right-header">
-            <a href="#" class="menu home-style">Home</a>
-            <a href="#" class="menu">Packages</a>
-            <a href="#" class="menu">Testimonial</a>
-            <a href="#" class="menu">Blog</a>
-            <a href="#" class="menu">Contact</a>
-          </div>
-          <img src="./resources/frame.svg" alt="" class="menu-img" />
-        </nav>
-        <!-- banner section start -->
-        <div class="banner-container">
-          <div class="banner">
-            <div class="banner-title">
-              <h1 class="banner-heading">Explore Your Travel</h1>
-
-              <p class="banner-para">
-                Embark on a journey with 'JetJive Travel .' Unleash wanderlust,
-                discover unique destinations, and create lasting memories. Your
-                next adventure awaits!
-              </p>
-            </div>
-            <div class="banner-input">
-              <input type="text" placeholder="Where go" class="banner-inp" />
+          <div class="banner-input">
+            <input type="text" placeholder="Where go" class="banner-inp" />
+            
+            <div class="input-container">
               <input type="text" placeholder="When" class="banner-inp" />
+              <img src="resources/down_arrow.svg" alt="Arrow" class="arrow-icon" />
+            </div>
 
+            <div class="input-container">
               <input type="text" placeholder="Select Type" class="banner-inp" />
+              <img src="resources/down_arrow.svg" alt="Arrow" class="arrow-icon" />
+            </div>
 
-              <div class="banner-btn">
-                <input type="button" value="Find Now" class="btn-primary" />
-              </div>
+
+            <div class="banner-btn">
+              <button type="button" class="btn-primary">
+                Find Now
+                <img src="resources/search.svg" alt="Search" class="search-icon" />
+              </button>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- banner section end -->
+      <!-- banner section end -->
 
-        <!-- popular section  start-->
-        <div class="popular-container">
-          <div class="popular-heading">
-            <h2 class="popular-title">Our Popular Tours</h2>
-            <p class="popular-paragaraph">
-              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-              odio sit massa. Sodales dictumst nec nibh pellentesque.
-            </p>
-            <ul>
-              <li class="popular-list">
-                Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-                nullam odio neque diam. Sociis erat at .
-              </li>
-              <li class="popular-list">
-                Adipiscing ornare pellentesque mauris volutpat tortor vitae
-                platea porta lacus. Lectus suspendisse nullam.
-              </li>
-              <li class="popular-list">
-                Accumsan eget et turpis praesent lorem egestas enim elit
-                bibendum. Risus at in.
-              </li>
-            </ul>
-            <p class="popular-paragaraph">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
-              senectus semper tincidunt.
-            </p>
-
-            <button class="btn-primary read-more-btn">Read More</button>
-          </div>
-
-          <div class="popular-image">
-            <img src="./resources/mountain.png" alt="" class="rectangle-image" />
-          </div>
-        </div>
-      </header>
-      <!-- header section end -->
-
-      <main>
-        <!-- Destination Section Start -->
-        <div class="destination">
-          <h2 class="popular-title destination-title">
-            Choose Your Destination
-          </h2>
-
-          <p class="popular-paragaraph destination-para">
+      <!-- popular section  start-->
+      <div class="popular-container">
+        <div class="popular-heading">
+          <h2 class="popular-title">Our Popular Tours</h2>
+          <p class="popular-paragaraph">
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit massa. Sodales dictumst nec nibh pellentesque.
           </p>
-        </div>
-
-        <div class="destination-places">
-          <!-- first row -->
-          <div class="first-row-img">
-            <div class="img">
-              <img
-                src="./resources/maldives.png"
-                alt=""
-                class="places-img first-row"
-              />
-              <p class="p-img">Maldives</p>
-            </div>
-            <div class="img">
-              <img
-                src="./resources/indonesia.png"
-                alt=""
-                class="places-img first-row"
-              />
-              <p class="p-img">Indonesia</p>
-            </div>
-          </div>
-
-          <!-- second row -->
-          <div class="second-row-img">
-            <div class="img">
-              <img
-                src="./resources/srilanka.png"
-                alt=""
-                class="places-img second-row"
-              />
-              <p class="p-img">Srilanka</p>
-            </div>
-
-            <div class="img">
-              <img
-                src="./resources/america.png"
-                alt=""
-                class="places-img second-row"
-              />
-              <p class="p-img">North America</p>
-            </div>
-
-            <div class="img">
-              <img
-                src="./resources/kashmir.png"
-                alt=""
-                class="places-img second-row"
-              />
-              <p class="p-img">Kashmir</p>
-            </div>
-          </div>
-
-          <!-- third row -->
-          <div class="third-row-img">
-            <div class="img">
-              <img
-                src="./resources/bangladesh.png"
-                alt=""
-                class="places-img third-row"
-              />
-              <p class="p-img">Bangladesh</p>
-            </div>
-
-            <div class="img">
-              <img
-                src="./resources/bandarban.png"
-                alt=""
-                class="places-img third-row"
-              />
-              <p class="p-img">Bandarban</p>
-            </div>
-          </div>
-        </div>
-        <!-- Destination Section End -->
-
-        <!-- choose section start -->
-        <div class="choose-section">
-          <h2 class="popular-title destination-title">Why Choose Us</h2>
-          <p class="popular-paragaraph destination-para">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          <ul>
+            <li class="popular-list">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li class="popular-list">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae
+              platea porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li class="popular-list">
+              Accumsan eget et turpis praesent lorem egestas enim elit
+              bibendum. Risus at in.
+            </li>
+          </ul>
+          <p class="popular-paragaraph">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+            senectus semper tincidunt.
           </p>
+
+          <button class="btn-primary read-more-btn">Read More</button>
         </div>
 
-        <div class="choose-card-container">
-          <div class="pick-hotels">
-            <img src="./resources/hotel.svg" alt="" class="card-logo" />
-            <h2 class="card-title">Handpicked Hotels</h2>
-            <p class="card-details">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet.
-            </p>
+        <div class="popular-image">
+          <img src="./resources/mountain.png" alt="" class="rectangle-image" />
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <main>
+      <!-- Destination Section Start -->
+      <div class="destination">
+        <h2 class="popular-title destination-title">
+          Choose Your Destination
+        </h2>
+
+        <p class="popular-paragaraph destination-para">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+      </div>
+
+      <div class="destination-places">
+        <!-- first row -->
+        <div class="first-row-img">
+          <div class="img">
+            <img src="./resources/maldives.png" alt="" class="places-img first-row" />
+            <p class="p-img">Maldives</p>
           </div>
-          <div class="services-explain">
-            <img src="./resources/map.svg" alt="" class="card-logo" />
-            <h2 class="card-title">World Class Service</h2>
-            <p class="card-details">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing risus natoque aliquet.
-            </p>
+          <div class="img">
+            <img src="./resources/indonesia.png" alt="" class="places-img first-row" />
+            <p class="p-img">Indonesia</p>
           </div>
         </div>
-        <div class="price-guarantee">
-          <img src="./resources/price.svg" alt="" class="card-logo" />
-          <h2 class="card-title">Best Price Guarantee</h2>
+
+        <!-- second row -->
+        <div class="second-row-img">
+          <div class="img">
+            <img src="./resources/srilanka.png" alt="" class="places-img second-row" />
+            <p class="p-img">Srilanka</p>
+          </div>
+
+          <div class="img">
+            <img src="./resources/america.png" alt="" class="places-img second-row" />
+            <p class="p-img">North America</p>
+          </div>
+
+          <div class="img">
+            <img src="./resources/kashmir.png" alt="" class="places-img second-row" />
+            <p class="p-img">Kashmir</p>
+          </div>
+        </div>
+
+        <!-- third row -->
+        <div class="third-row-img">
+          <div class="img">
+            <img src="./resources/bangladesh.png" alt="" class="places-img third-row" />
+            <p class="p-img">Bangladesh</p>
+          </div>
+
+          <div class="img">
+            <img src="./resources/bandarban.png" alt="" class="places-img third-row" />
+            <p class="p-img">Bandarban</p>
+          </div>
+        </div>
+      </div>
+      <!-- Destination Section End -->
+
+      <!-- choose section start -->
+      <div class="choose-section">
+        <h2 class="popular-title destination-title">Why Choose Us</h2>
+        <p class="popular-paragaraph destination-para">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+      </div>
+
+      <div class="choose-card-container">
+        <div class="pick-hotels">
+          <img src="./resources/hotel.svg" alt="" class="card-logo" />
+          <h2 class="card-title">Handpicked Hotels</h2>
           <p class="card-details">
             Amet consectetur. Vulputate commodo felis molestie risus ornare
             nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
             Habitant adipiscing risus natoque aliquet.
           </p>
         </div>
-
-        <!-- choose section end -->
-
-        <!-- discount countainer start -->
-        <div class="discount-container">
-          <h2 class="popular-title destination-title">Deals & Discounts</h2>
-          <p class="popular-paragaraph destination-para">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
+        <div class="services-explain">
+          <img src="./resources/map.svg" alt="" class="card-logo" />
+          <h2 class="card-title">World Class Service</h2>
+          <p class="card-details">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet.
           </p>
-        </div>
-
-        <div class="discount-offer">
-          <div class="location-time">
-            <p class="date">
-              <img src="./resources/location.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="people">
-              <img src="./resources/people.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="location">
-              <img src="./resources/time.svg" alt="" class="time-img" /> 7days
-            </p>
-            <h2 class="place-name">Tour To Satorini</h2>
-            <p class="place-details">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing.
-            </p>
-            <p class="place-prices">Price: $1300-$1500</p>
-            <button class="btn-primary place-btn">Book Now</button>
-          </div>
-        </div>
-        <div class="discount-offer2">
-          <div class="location-time flip-time">
-            <p class="date">
-              <img src="./resources/location.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="people">
-              <img src="./resources/people.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="location">
-              <img src="./resources/time.svg" alt="" class="time-img" /> 7days
-            </p>
-            <h2 class="place-name">Tour To Satorini</h2>
-            <p class="place-details">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing.
-            </p>
-            <p class="place-prices">Price: $1300-$1500</p>
-            <button class="btn-primary place-btn">Book Now</button>
-          </div>
-        </div>
-
-        <div class="discount-offer3">
-          <div class="location-time">
-            <p class="date">
-              <img src="./resources/location.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="people">
-              <img src="./resources/people.svg" alt="" class="time-img" /> 7days
-            </p>
-            <p class="location">
-              <img src="./resources/time.svg" alt="" class="time-img" /> 7days
-            </p>
-            <h2 class="place-name">Tour To Satorini</h2>
-            <p class="place-details">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-              Habitant adipiscing.
-            </p>
-            <p class="place-prices">Price: $1300-$1500</p>
-            <button class="btn-primary place-btn">Book Now</button>
-          </div>
-        </div>
-        <button class="btn-primary packages-btn">See All Packages</button>
-        <!-- discount countainer end -->
-
-        <!-- perfect place container start -->
-
-        <div class="perfect-place">
-          <div class="perfect-wrapper">
-            <h1 class="popular-title perfect-title">
-              A Simple Perfect Place To Get Lost
-            </h1>
-            <p class="perfect-paragraph">
-              Amet consectetur. Vulputate commodo felis molestie risus ornare
-              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            </p>
-
-            <ul>
-              <li>
-                Adipiscing ornare pellentesque mauris volutpat tortor vitae
-                platea porta lacus. Lectus suspendisse nullam.
-              </li>
-
-              <li>
-                Adipiscing ornare pellentesque mauris volutpat tortor vitae
-                platea porta lacus. Lectus suspendisse nullam.
-              </li>
-            </ul>
-
-            <button class="btn-primary see-more-btn">See More</button>
-          </div>
-
-          <div class="perfect-video">
-            <div class="perfect-video-title">
-              <h2 class="perfect-video-title">
-                Watch Our Mountain in Bangladesh
-              </h2>
-            </div>
-            <div class="perfect-video-img">
-              <!-- Background Image -->
-              <div class="video-background">
-                <div class="video-controls video-setting">
-                  <div class="video-img">
-                    <img src="./resources/pause.svg" alt="" class="pause-img" />
-                    <p class="video-img-para">0.00</p>
-                  </div>
-                  <div class="video-icons">
-                    <img
-                      src="./resources/volume-x.svg"
-                      alt=""
-                      class="perfect-icons"
-                    />
-                    <img
-                      src="./resources/maximuz.svg"
-                      alt=""
-                      class="perfect-icons"
-                    />
-                    <img
-                      src="./resources/options.svg"
-                      alt=""
-                      class="perfect-icons"
-                    />
-                  </div>
-                </div>
-                <div class="vertical-line">
-                  <img src="./resources/groups.svg" alt="" class="hr-first-side" />
-                  <img src="./resources/hr.png" alt="" class="hr-second-side" />
-                </div>
-              </div>
-
-              <!-- Video Controls -->
-            </div>
-          </div>
-        </div>
-        <!-- newsletter section start -->
-        <div class="newsletter">
-          <div class="newsletter-container-left">
-            <h2 class="newsletter-title">Newsletter</h2>
-            <p class="newsletter-paragraph">
-              Get your daily dose of travel news & tips. Sign up today!
-            </p>
-            <hr class="divider" />
-            <input
-              type="text"
-              class="newsletter-input"
-              placeholder="Enter your name"
-            />
-
-            <input
-              type="email"
-              class="newsletter-input"
-              placeholder="Enter your email"
-            />
-            <button class="btn-primary input-btn">Subscribe</button>
-          </div>
-
-          <div class="newsletter-container-right">
-            <div class="newletter-img-text">
-              <p class="newsletter-img">Travel.com</p>
-              <h2 class="newletter-img-title">Save up to 70%</h2>
-            </div>
-          </div>
-        </div>
-
-        <!-- newsletter section end -->
-      </main>
-    </div>
-
-    <footer>
-      <div class="footer-section">
-        <div class="footer-heading">
-          <img src="./resources/logo.png" alt="" class="footer-img" />
-          <h2 class="footer-head">
-            JetJive <span class="footer-head-right">Travel</span>
-          </h2>
-        </div>
-
-        <div class="footer-details">
-          <p class="footer-paragraph">
-            dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit
-            orci potenti vulputate. Leo erat maecenas vitae elementum ultricies
-            nullam.
-          </p>
-
-          <hr class="divider footer-hr" />
-          <img src="./resources/social-sites.svg" alt="" class="footer-socials" />
-
-          <hr class="divider footer-divider" />
-
-          <p class="copy-rights">2017, All Rights Reserved.</p>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="price-guarantee">
+        <img src="./resources/price.svg" alt="" class="card-logo" />
+        <h2 class="card-title">Best Price Guarantee</h2>
+        <p class="card-details">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare
+          nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+          Habitant adipiscing risus natoque aliquet.
+        </p>
+      </div>
+
+      <!-- choose section end -->
+
+      <!-- discount countainer start -->
+      <div class="discount-container">
+        <h2 class="popular-title destination-title">Deals & Discounts</h2>
+        <p class="popular-paragaraph destination-para">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+      </div>
+
+      <div class="discount-offer">
+        <div class="location-time">
+          <p class="date">
+            <img src="./resources/location.svg" alt="" class="time-img" /> 7 Day / 6 Night
+          </p>
+          <p class="people">
+            <img src="./resources/people.svg" alt="" class="time-img" /> Max : 10
+          </p>
+          <p class="location">
+            <img src="./resources/time.svg" alt="" class="time-img" /> Malaysia
+          </p>
+          <h2 class="place-name">Tour To Satorini</h2>
+          <p class="place-details">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing.
+          </p>
+          <p class="place-prices">Price: $1300-$1500</p>
+          <button class="btn-primary place-btn">Book Now</button>
+        </div>
+      </div>
+      <div class="discount-offer2">
+        <div class="location-time flip-time">
+          <p class="date">
+            <img src="./resources/location.svg" alt="" class="time-img" /> 7 Day / 6 Night
+          </p>
+          <p class="people">
+            <img src="./resources/people.svg" alt="" class="time-img" /> Max : 10
+          </p>
+          <p class="location">
+            <img src="./resources/time.svg" alt="" class="time-img" /> Malaysia
+          </p>
+          <h2 class="place-name">Tour To Satorini</h2>
+          <p class="place-details">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing.
+          </p>
+          <p class="place-prices">Price: $1300-$1500</p>
+          <button class="btn-primary place-btn">Book Now</button>
+        </div>
+      </div>
+
+      <div class="discount-offer3">
+        <div class="location-time">
+          <p class="date">
+            <img src="./resources/location.svg" alt="" class="time-img" /> 7 Day / 6 Night
+          </p>
+          <p class="people">
+            <img src="./resources/people.svg" alt="" class="time-img" /> Max : 10
+          </p>
+          <p class="location">
+            <img src="./resources/time.svg" alt="" class="time-img" /> Malaysia
+          </p>
+          <h2 class="place-name">Tour To Satorini</h2>
+          <p class="place-details">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing.
+          </p>
+          <p class="place-prices">Price: $1300-$1500</p>
+          <button class="btn-primary place-btn">Book Now</button>
+        </div>
+      </div>
+      <button class="btn-primary packages-btn">See All Packages</button>
+      <!-- discount countainer end -->
+
+      <!-- perfect place container start -->
+
+      <div class="perfect-place">
+        <div class="perfect-wrapper">
+          <h1 class="popular-title perfect-title">
+            A Simple Perfect Place To Get Lost
+          </h1>
+          <p class="perfect-paragraph">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+          </p>
+
+          <ul>
+            <li>
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae
+              platea porta lacus. Lectus suspendisse nullam.
+            </li>
+
+            <li>
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae
+              platea porta lacus. Lectus suspendisse nullam.
+            </li>
+          </ul>
+
+          <button class="btn-primary see-more-btn">See More</button>
+        </div>
+
+        <div class="perfect-video">
+          <div class="perfect-video-title">
+            <h2 class="perfect-video-title">
+              Watch Our Mountain in Bangladesh
+            </h2>
+          </div>
+          <div class="perfect-video-img">
+            <!-- Background Image -->
+            <div class="video-background">
+              <div class="video-controls video-setting">
+                <div class="video-img">
+                  <img src="./resources/pause.svg" alt="" class="pause-img" />
+                  <p class="video-img-para">0.00</p>
+                </div>
+                <div class="video-icons">
+                  <img src="./resources/volume-x.svg" alt="" class="perfect-icons" />
+                  <img src="./resources/maximuz.svg" alt="" class="perfect-icons" />
+                  <img src="./resources/options.svg" alt="" class="perfect-icons" />
+                </div>
+              </div>
+              <div class="vertical-line">
+                <img src="./resources/groups.svg" alt="" class="hr-first-side" />
+                <img src="./resources/hr.png" alt="" class="hr-second-side" />
+              </div>
+            </div>
+
+            <!-- Video Controls -->
+          </div>
+        </div>
+      </div>
+      <!-- newsletter section start -->
+      <div class="newsletter">
+        <div class="newsletter-container-left">
+          <h2 class="newsletter-title">Newsletter</h2>
+          <p class="newsletter-paragraph">
+            Get your daily dose of travel news & tips. Sign up today!
+          </p>
+          <hr class="divider" />
+          <input type="text" class="newsletter-input" placeholder="Enter your name" />
+
+          <input type="email" class="newsletter-input" placeholder="Enter your email" />
+          <button class="btn-primary input-btn">Subscribe</button>
+        </div>
+
+        <div class="newsletter-container-right">
+          <div class="newletter-img-text">
+            <p class="newsletter-img">Travel.com</p>
+            <h2 class="newletter-img-title">Save up to 70%</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- newsletter section end -->
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-section">
+      <div class="footer-heading">
+        <img src="./resources/logo.png" alt="" class="footer-img" />
+        <h2 class="footer-head">
+          JetJive <span class="footer-head-right">Travel</span>
+        </h2>
+      </div>
+
+      <div class="footer-details">
+        <p class="footer-paragraph">
+          dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit
+          orci potenti vulputate. Leo erat maecenas vitae elementum ultricies
+          nullam.
+        </p>
+
+        <hr class="divider footer-hr" />
+        <img src="./resources/social-sites.svg" alt="" class="footer-socials" />
+
+        <hr class="divider footer-divider" />
+
+        <p class="copy-rights">2017, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

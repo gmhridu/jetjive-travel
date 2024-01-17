@@ -888,7 +888,8 @@ nav {
   .popular-title {
     font-size: 20px;
     text-align: center;
-    padding-left: 12px;
+    padding-left: 1px;
+    overflow: hidden;
   }
 
   .popular-image {
@@ -1071,8 +1072,7 @@ nav {
   .perfect-wrapper li {
     width: 335px;
     font-size: 14px;
-    line-height: 24px;
-    margin: 10px -9px;
+    margin: 10px -14px;
   }
   .perfect-wrapper > ul {
     padding-left: 87px;

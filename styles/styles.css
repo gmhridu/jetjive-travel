@@ -758,6 +758,14 @@ nav {
   margin: 20px auto;
 }
 
+.copy-rights {
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 50px 624px;
+}
+
 /* Responsive for small mobile device */
 @media screen and (max-width: 576px) {
   .container {
@@ -875,6 +883,10 @@ nav {
     margin-top: -44px;
   }
 
+  .destination-title{
+    margin-top: 20px;
+  }
+
   .first-row-img,
   .second-row-img,
   .third-row-img {
@@ -882,7 +894,7 @@ nav {
   }
 
   .choose-section {
-    margin-top: -46px;
+    margin-top: -9px;
   }
 
   .choose-card-container {
@@ -1081,5 +1093,51 @@ nav {
   .newletter-img-title {
     font-size: 21.138px;
     margin-left: 13px;
+  }
+
+  .footer-section {
+    width: 375px;
+    height: 309px;
+    margin: auto;
+  }
+
+  .footer-heading {
+    margin: 0 145px;
+    margin-top: 12px;
+  }
+
+  .footer-img {
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+  }
+
+  .footer-head,
+  .footer-head-right {
+    font-size: 21.543px;
+  }
+
+  .footer-paragraph {
+    width: 287px;
+    font-size: 14px;
+    margin: 20px 60px;
+  }
+
+  .footer-hr {
+    display: none;
+  }
+
+  .footer-socials {
+    margin: 0 109px;
+  }
+
+  .footer-divider {
+    width: 335px;
+    height: 1px;
+  }
+
+  .copy-rights{
+    font-size: 14px;
+    margin: 0 103px;
   }
 }

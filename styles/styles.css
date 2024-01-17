@@ -743,7 +743,7 @@ nav {
   max-width: 1440px;
   height: 502px;
   background: rgba(19, 19, 24, 0.05);
-  margin: 0 325px;
+  margin: 0px 232px;
   border-radius: 16px;
 }
 
@@ -883,7 +883,7 @@ nav {
     margin-top: -44px;
   }
 
-  .destination-title{
+  .destination-title {
     margin-top: 20px;
   }
 
@@ -1098,7 +1098,6 @@ nav {
   .footer-section {
     width: 375px;
     height: 309px;
-    margin: auto;
   }
 
   .footer-heading {
@@ -1136,7 +1135,7 @@ nav {
     height: 1px;
   }
 
-  .copy-rights{
+  .copy-rights {
     font-size: 14px;
     margin: 0 103px;
   }
